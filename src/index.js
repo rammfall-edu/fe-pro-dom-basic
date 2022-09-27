@@ -1,7 +1,7 @@
 export const paintCards = () => {
     let listOfLi = document.getElementsByTagName("li");
     for (let i = 0; i < listOfLi.length; i++){
-        if (i % 2){
+        if (!(i % 2)){
             listOfLi[i].style.backgroundColor = "red";
         }; 
     }; 
